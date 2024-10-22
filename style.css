@@ -373,7 +373,7 @@ img {
 .btn-wide {
   width: 177px;
   cursor: pointer;
-  padding: 10px;
+  padding: 16px;
 }
 
 .fonctionnement-section {
@@ -732,9 +732,22 @@ body:not(:has(#loader)) .content {
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 2560px) {
+
+  .btn.btn-round.btn-color.btn-wide.text-smaller {
+    font-size: 18px !important;
+    padding: 15px 30px !important;
+    min-width: 250px; /* Largeur minimale du bouton */
+    white-space: nowrap; /* Empêche le texte de revenir à la ligne */
+  }
+
+  .btn .text.text-white.text-bold.text-smaller {
+    font-size: 18px !important;
+  }
+
   body {
     font-size: 18px;
   }
+
   .restaurant-card-menu {
     box-shadow: none;
   }
