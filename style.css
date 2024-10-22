@@ -230,6 +230,11 @@ img {
   border: none;
 }
 
+.btn:hover {
+  opacity: 0.7; 
+  transition: opacity 0.3s ease;
+}
+
 .align-item-left {
   align-items: flex-end;
 }
@@ -332,7 +337,7 @@ img {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 300px;
+  max-width: 145px;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
 }
@@ -864,6 +869,14 @@ body:not(:has(#loader)) .content {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
   }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+.fonctionnement-card {
+  font-size:smaller ;
+}
+
 }
 
 /*# sourceMappingURL=style.css.map */
