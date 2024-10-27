@@ -25,30 +25,29 @@
     <header>
         <nav>
             <div class="nav-content">
-                <div class="icon-goback" onclick="window.location.href='./index.html'">
+                <a class="icon-goback" href="index.html">
                     <i class="fa-solid fa-arrow-left"></i>
-                </div>
-                <img src="./assets/Images_et_textes_Ohmyfood/images/logo/ohmyfood.png"
-                    alt="Logo du restaurant Oh My Food">
+                </a>
+                <img src="./assets/Images et textes Ohmyfood/images/logo/ohmyfood.png" alt="logo" />
             </div>
         </nav>
     </header>
 
     <main>
         <img class="bg-image"
-            src="./assets/Images_et_textes_Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
-            alt="Image de fond : plat sur une table de restaurant">
-        <div class="menu-container">
-            <div class="menu-section">
-                <div class="sub-menu-section">
+            src="assets/Images et textes Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+            alt="Image de fond : plat sur une table de restaurant" />
+        <div class="general-container">
+            <div class="relative-grey-container">
+                <div class="grey-container">
                     <div class="restaurant-name-container">
                         <p class="restaurant-name">A la francaise</p>
                         <div class="like-restaurant-container">
                             <div class="like-container">
-                                <img src="assets/Images_et_textes_Ohmyfood/white-heart.svg"
-                                    class="heart-icon white-heart" alt="Cœur blanc">
-                                <img src="assets/Images_et_textes_Ohmyfood/purple-heart.svg"
-                                    class="heart-icon purple-heart" alt="Cœur violet">
+                                <img src="assets/Images et textes Ohmyfood/white-heart.svg"
+                                    class="heart-icon white-heart">
+                                <img src="assets/Images et textes Ohmyfood/purple-heart.svg"
+                                    class="heart-icon purple-heart">
                             </div>
                         </div>
                     </div>
@@ -185,12 +184,6 @@
                                 <div class="check-container">
                                     <i class="fa fa-check check" aria-hidden="true"></i>
                                 </div>
-
-                            </div>
-                            <div class="button-container">
-                                <button class="btn btn-round btn-color btn-wide">
-                                    <span class="text text-white text-bold text-smaller">Commander</span>
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -200,35 +193,21 @@
     </main>
 
     <footer class="footer-section">
-        <a href="#">
-            <img src="/assets/Images_et_textes_Ohmyfood/images/logo/ohmyfood.svg" class="white-logo"
-                alt="Logo blanc Ohmyfood">
-        </a>
-
+        <div>
+            <img src="assets/Images et textes Ohmyfood/images/logo/ohmyfood.svg" class="white-logo"></img>
+        </div>
         <div class="footer-links">
-            <a href="#">
-                <div class="footer-picto-and-text" id="propose-restaurant">
-                    <i class="footer-picto fa-solid fa-utensils" aria-hidden="true"></i>
-                    <span>Proposer un restaurant</span>
-                </div>
-            </a>
-            <a href="#">
-                <div class="footer-picto-and-text" id="suggestions">
-                    <i class="footer-picto fa-solid fa-pen" aria-hidden="true"></i>
-                    <span>Suggestions</span>
-                </div>
+            <div class="footer-picto-and-text" id="propose-restaurant">
+                <i class="footer-picto fa-solid fa-utensils"></i>
+                <span class="footer-text cursor">Proposer un restaurant</span>
+            </div>
 
-            </a>
-            <a href="#">
-                <div class="footer-picto-and-text" id="mentions_légales">
-                    <span>Mentions légales</span>
-                </div>
-            </a>
-            <a href="#">
-                <div class="footer-picto-and-text" id="contact">
-                    <span>Contact</span>
-                </div>
-            </a>
+            <div class="footer-picto-and-text" id="become-partner">
+                <i class="footer-picto fa-solid fa-handshake"></i>
+                <span class="footer-text">Devenir partenaire</span>
+            </div>
+            <span class="footer-picto-and-text" id="legal-notice">Mentions légales</span>
+            <span class="footer-picto-and-text" id="contact">Contact</span>
         </div>
     </footer>
 </body>
