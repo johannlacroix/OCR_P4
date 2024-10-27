@@ -189,8 +189,7 @@ img {
 .bg-image {
   width: 100%;
   height: 300px;
-  object-fit: cover; /* cover image */
-}
+  object-fit: cover; /* contrôle la manière dont le contenu d'un élément remplit son conteneur */
 }
 
 .location {
@@ -709,7 +708,7 @@ body:not(:has(#loader)) .content {
   display: block;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1000px ) {
   /* Styles spécifiques pour vue tablette */
   body {
     font-size: 18px;
@@ -823,6 +822,22 @@ body:not(:has(#loader)) .content {
   .footer-links span {
     margin: 0px;
   }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+
+  .fonctionnement-card-text-1 {
+    font-size:small;
+}
+
+.fonctionnement-card-text-2 {
+  font-size:small;
+}
+
+.fonctionnement-card-text-3 {
+  font-size:small;
+}
+
 }
 
 /*# sourceMappingURL=style.css.map */
